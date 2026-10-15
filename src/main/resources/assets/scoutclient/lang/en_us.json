@@ -1,0 +1,11 @@
+{
+  "key.category.scoutclient.main": "Scout Client",
+  "key.scoutclient.freecam": "Toggle Freecam Preview",
+  "key.scoutclient.chest_markers": "Toggle Chest Markers",
+  "key.scoutclient.chunk_overlay": "Toggle Chunk Coordinates",
+  "key.scoutclient.open_menu": "Open Scout Menu",
+  "key.scoutclient.shulker_highlights": "Toggle Shulker Highlights (placeholder)",
+  "key.scoutclient.ender_chest_highlights": "Toggle Ender Chest Highlights (placeholder)",
+  "key.scoutclient.player_hitboxes": "Toggle Player Hitboxes (placeholder)",
+  "key.scoutclient.storage_tracers": "Toggle Storage Tracers (placeholder)"
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "scoutclient",
+  "version": "${version}",
+  "name": "Scout Client",
+  "description": "A client-side Fabric mod with keybind toggles and a small status menu.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.scout.ScoutClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
