@@ -2,7 +2,7 @@ package com.example.scout;
 
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.KeyMapping;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import org.lwjgl.glfw.GLFW;
 
 public final class ModKeybinds {
@@ -10,7 +10,7 @@ public final class ModKeybinds {
 
     public static final KeyMapping.Category CATEGORY =
             KeyMapping.Category.register(
-                    ResourceLocation.fromNamespaceAndPath("scoutclient", "main"));
+                    Identifier.fromNamespaceAndPath("scoutclient", "main"));
 
     public static final KeyMapping FREECAM =
             KeyBindingHelper.registerKeyBinding(new KeyMapping(
